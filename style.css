@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&family=Montserrat:wght@200;400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&family=Montserrat:wght@200;400&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container{
+    margin-top: 200px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 600px;
+    height: 450px;
+}
+
+.image{
+    width: 50%;
+    height: 100%;
+    border-radius: 15px 0 0 15px;
+}
+
+.child{
+    width: 50%;
+    height: 100%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0 15px 15px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.first{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+.parfum{
+    font-size: x-large;
+    margin-left: 40px;
+    max-width: 40%;
+    font-family: 'Fraunces', serif;
+}
+
+.second{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 35px;
+    margin-left: 40px;
+    max-width: 60%;
+}
+
+
+.prize{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: -60px;
+
+}
+
+.prize h3{
+    font-size: x-large;
+    color: hsl(158, 36%, 37%);
+}
+
+.prize p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 30px;
+}
+
+button{
+    width: 180px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: hsl(158, 36%, 37%);
+    margin-bottom: 40px;
+    margin-left: 38px;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.button p{
+   color: white; 
+}
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
